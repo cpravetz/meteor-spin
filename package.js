@@ -1,16 +1,16 @@
 Package.describe({
-  name: 'sacha:spin',
+  name: 'seakaytee:spin',
   summary: 'Simple spinner package for Meteor',
-  version: '2.3.1',
+  version: '2.3.2',
   git: 'https://github.com/sachag/meteor-spin'
 });
 
 Npm.depends({
-  "spin.js": "2.3.1"
+  "spin.js": "4.1.1"
 });
 
 Package.onUse(function (api, where) {
-  api.versionsFrom(['METEOR@0.9.0', 'METEOR@1.0']);
+  api.versionsFrom(['METEOR@0.9.0', 'METEOR@1.0','2.3']);
   api.use([
     'templating',
     'underscore'
